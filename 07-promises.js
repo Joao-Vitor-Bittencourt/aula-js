@@ -10,13 +10,13 @@ const apiCall = new Promise((resolve, reject) => {
 //   .then((resposta) => {
 //     console.log(resposta);
 //   })
-//   .catch((erro) => {
+//   .catch((erro) => { 
 //     console.log(erro);
 //   });
   
 
 /** async e await */
-async function run() {
+async function run() {  
   try {
     const resposta = await apiCall;
     console.log(resposta);
